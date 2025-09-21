@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/artificial-intelligence/deep-learning/activation-functions/"}
+{"dg-publish":true,"permalink":"/artificial-intelligence/deep-learning/activation-functions/","tags":["area/DL/concept"]}
 ---
 
 ### Monotonic Activation Function
