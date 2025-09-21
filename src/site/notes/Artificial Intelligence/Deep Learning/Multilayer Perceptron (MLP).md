@@ -61,4 +61,26 @@ Meanwhile, changing the bias shifts where the change starts from. Essentially ch
 
 ---
 
+### Generalizing gradient descent to MLPs
+---
+
+In MLPs, weights need to be updated at both the input-to-hidden (assume $w_{ih}$) and hidden-to-output (assume $w_{ho}$) connections. 
+
+The above can be done by "assigning credit or blame" to different parts of the network for the error in the final output, meaning **crediting or blaming** each weights role or contribution in producing the overall response.
+
+This can be done by computing the rate of change of the total error ($\delta E$) with respect to each weight ($w_{ih}$ and $w_{ho}$), i.e., ($\frac{\delta E}{w_{ih}}$ and $\frac{\delta E}{w_{ho}}$), which would allow for targeted weight updates. 
+
+---
+
+### Backpropagation Algorithm
+---
+
+The backpropagation algorithm works in 2 phases:
+1. **Forward Phase:** Propagate the input forward through the layers to calculate the "functional signal"
+2. **Backward Phase:** Propagate the error backwards through the network starting at the output units to evaluate the "error signal"
+3. Update all the weights at the same time
+
+
+
+
 
