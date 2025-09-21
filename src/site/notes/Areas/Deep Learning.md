@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/areas/deep-learning/"}
+{"dg-publish":true,"permalink":"/areas/deep-learning/","tags":["gardenEntry"]}
 ---
 
 #area/DL
