@@ -72,8 +72,21 @@ This can be done by computing the rate of change of the total error ($\delta E$)
 
 ---
 
-### Backpropagation Algorithm
+### Forward pass and Backward pass Algorithm
 ---
+
+**Forward pass computation:**
+1. For each hidden unit $z_j$:
+	1. Compute weighted sum of inputs: $u_j$ = $\sum_{i} w_{ih} x_i$ 
+	2. Apply activation function: $z_j$ = g($u_j$)
+	
+2. For each output unit $y_k$:
+	1. Sum outputs from hidden layer: $a_k$ = $\sum_{j} w_{ho} z_j$
+	2. Apply activation function: $y_k$ = g($a_k$)
+
+
+**Backward pass computation:**
+1. 
 
 The backpropagation algorithm works in 2 phases:
 1. **Forward Phase:** Propagate the input forward through the layers to calculate the "functional signal"
