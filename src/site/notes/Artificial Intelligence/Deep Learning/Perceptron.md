@@ -113,4 +113,4 @@ Since $z \geq 0$, the output is 1.
 - [[Linear Separability\|Linear Separability]]  
 - [[Artificial Intelligence/Deep Learning/Gradient Descent\|Gradient Descent]]  
 - [[Artificial Intelligence/Deep Learning/Multilayer Perceptron (MLP)\|Multilayer Perceptron (MLP)]]  
-- [[Activation Functions\|Activation Functions]]  
+- [[Artificial Intelligence/Deep Learning/Activation Functions\|Activation Functions]]  
