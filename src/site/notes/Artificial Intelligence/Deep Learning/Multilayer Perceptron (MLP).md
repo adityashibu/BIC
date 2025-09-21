@@ -48,4 +48,17 @@ If we want to train a neural network with backpropogation, the activation functi
 
 ---
 
+### Multilayer Perceptron: Effect of weights and bias
+---
+
+![Pasted image 20250921184243.png](/img/user/Artificial%20Intelligence/Natural%20Language%20Processing/Assets/Pasted%20image%2020250921184243.png)
+
+In a multilayer perceptron, changing the values of the weights, changes the smoothness of the curve. Lower values of weights produce a smoother slope like curve, while higher values produce a steeper curve.
+
+![Pasted image 20250921184320.png](/img/user/Artificial%20Intelligence/Natural%20Language%20Processing/Assets/Pasted%20image%2020250921184320.png)
+
+Meanwhile, changing the bias shifts where the change starts from. Essentially changes the starting position of the slope.
+
+---
+
 

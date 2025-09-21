@@ -72,6 +72,15 @@ The **Perceptron** is a fundamental building block of neural networks and one of
 
 ---
 
+### Perceptron vs Adaline
+---
+
+While both are similar in the fact that they use the delta rule , there are some crucial differences between a perceptron and an adaline perceptron, mainly:
+1. Perceptron: Uses the predicted output $\hat{Y}$ to compute the difference, i.e., $\delta = y - \hat{y}$ 
+2. Adaline: Uses z or the weighted sum to compute the difference, i.e., $\delta = y - z$
+
+---
+
 ### Limitations  
 ---  
 
