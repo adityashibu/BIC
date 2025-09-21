@@ -30,4 +30,22 @@ Having more **number of layers** increases the complexity of problems the MLP ca
 
 ---
 
-###
+### Selecting an Activation Function
+---
+
+If we want to train a neural network with backpropogation, the activation function needs to be:
+1. Continuous
+2. Differentiable
+
+>[!NOTE]
+>You can combine different activation functions, for example:
+> - In regression or function approximation, since we need real outputs, we can use linear activation in the output layers and other non-linear activation functions in the hidden layers 
+> - For classification tasks, sigmoid or tanh functions are used in the hidden layers as they squash the inputs into a limited range and bring out useful non-linear properties
+
+**Remember:** You CANNOT choose sigmoid or tanh activation functions for **multi-class classification** in the output layer
+
+**Activation function has a critical impact on the speed of the training**
+
+---
+
+
