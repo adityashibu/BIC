@@ -86,7 +86,13 @@ This can be done by computing the rate of change of the total error ($\delta E$)
 
 
 **Backward pass computation:**
-1. 
+1. Update each weight using the gradient descent:
+	1. $w_{ih}$ = $w_{ih}$ - $\lambda \frac{\partial E}{\partial w_{ih}}$
+	2. $w_{ho}$ = $w_{ho} - $\lambda \frac{\partial E}{\partial w_{ho}}$
+where:
+- $\lambda$ is the learning rate
+- $E$ is the overall error (Usually mean squared error)
+- The partial derivatives ($\frac{\partial E}{\partial w_{ih}}$ and $\frac{\partial E}{\partial w_{ho}}$) tells us how much each weight contributes to the error
 
 The backpropagation algorithm works in 2 phases:
 1. **Forward Phase:** Propagate the input forward through the layers to calculate the "functional signal"
