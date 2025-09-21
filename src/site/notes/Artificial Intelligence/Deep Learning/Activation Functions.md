@@ -2,16 +2,6 @@
 {"dg-publish":true,"permalink":"/artificial-intelligence/deep-learning/activation-functions/"}
 ---
 
-## Types of Activation Functions
----
-
-1. [[#Monotonic Activation Function]]
-2. [[#Sigmoid Activation Function]]
-3. [[#Tanh or Hyperbolic Tangent Activation Function]]
-4. [[#Linear Activation Function]]
-
----
-
 ### Monotonic Activation Function
 ---
 
